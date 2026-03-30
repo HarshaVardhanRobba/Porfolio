@@ -1,6 +1,6 @@
 
 import {
-  logo,
+  gole,
   backend,
   creator,
   mobile,
@@ -16,7 +16,7 @@ import {
   express,
   aws,
   mui,
-  
+
   gsap,
   framer,
   figma,
@@ -45,7 +45,7 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-    
+
   },
   {
     id: "work",
@@ -101,7 +101,7 @@ const technologies = [
     icon: framer,
   },
 
- 
+
   {
     name: "Three JS",
     icon: threejs,
@@ -147,7 +147,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
- 
+
 
 ];
 
