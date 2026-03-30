@@ -22,7 +22,7 @@ const Computers = () => {
       <primitive
         object={computer.scene}
         scale={0.75} // Keep scale normal for desktop
-        position={[0, -3.25, -1.5]}
+        position={[0, -4.09, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
         OrbitControls={false} // Disable OrbitControls for desktop
       />
@@ -30,12 +30,12 @@ const Computers = () => {
   );
 };
 
-const ComputersCanvas = () => {
+const ComputersCanvas = ({ className }) => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 500);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 500px)");
-    
+
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     };
@@ -52,6 +52,7 @@ const ComputersCanvas = () => {
       <Canvas
         frameloop="demand"
         shadows
+        className={className}
         dpr={[1, 2]}
         camera={{ position: [20, 3, 5], fov: 25 }}
         gl={{ preserveDrawingBuffer: true }}

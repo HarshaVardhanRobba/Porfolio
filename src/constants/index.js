@@ -61,14 +61,17 @@ const services = [
   {
     title: "Platform Engineer",
     icon: web,
+    Link: "https://github.com/HarshavardhanRobba"
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
+    Link: "https://github.com/HarshavardhanRobba"
   },
   {
     title: "Data Engineer",
     icon: creator,
+    Link: "https://github.com/HarshavardhanRobba"
   },
 ];
 

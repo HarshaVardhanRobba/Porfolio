@@ -5,7 +5,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
 
-  
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -27,9 +27,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas className="mt-5"/>
+      <ComputersCanvas className="mt-5" />
 
-      
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

@@ -7,8 +7,7 @@ Welcome to my personal portfolio repository! I'm a **Platform Engineer and Devel
 I build the parts that make conversational AI hold up in the real world—voice pipelines, prompt + LLM evals, and the backend glue. I've shipped RAG systems with DeepEval quality gates, deployed Docker/Kubernetes services on Azure/GCP, and added OpenTelemetry to spot regressions quickly. I work closely with product and conversation teams to turn edge cases into clear KPIs, always handling user data with care for privacy.
 
 **Contact:**
-- **Email:** robbaharsha834@gmail.com
-- **Phone:** +1-7038536964
+- **Email:** [robbaharsha834@gmail.com]
 - **GitHub:** [HarshaVardhanRobba](https://github.com/HarshaVardhanRobba)
 
 ## Core Technical Skills
